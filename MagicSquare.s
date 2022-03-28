@@ -176,7 +176,7 @@ END
 	
 
 	
-size1 DCD	3   ; a 3x3 array
+size1 DCD 3     ; a 3x3 array
 arr1  DCD 8,1,6 ; the array
       DCD 3,5,7 ;to check that the code works if the size of array is odd
       DCD 4,9,2 ;R2 should be 0
