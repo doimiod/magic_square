@@ -123,7 +123,7 @@ FOR1                                   ;for(i=0; i<N; i++){
         ADD R9, R9, R4                 ;S=S+B[i,N-i-1]
         LDR R10,=0                     ;T=0 initialise T
         LDR R11,=0                     ;U=0 initialise U
-	    LDR R7, =0                     ;initialise k to use for FOR2 
+	LDR R7, =0                     ;initialise k to use for FOR2 
         
 FOR2                                   ;for(j=0; j<N; j++){
         CMP R7,R1                     
