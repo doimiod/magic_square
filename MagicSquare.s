@@ -87,7 +87,7 @@ stop	B	stop
 isMagic
      
 	 PUSH {R4-R12, LR}
-                                       ;if a square is a magic square, 0 is in R0 otherwise 1.
+                                       ;if a square array is a magic square, 0 is in R0 otherwise 1.
                                        ;N is the size of array
                                        ;There are 4 lines, which are a horizontal line, a vertical line, and 2 diagonal lines.
                                        ;and they are called A,B,C,D e.g. C[i,j]
